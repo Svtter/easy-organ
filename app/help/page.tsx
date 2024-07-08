@@ -1,7 +1,6 @@
 'use client';
 
 import React from "react";
-import Layout from '../../components/layout';
 
 import {
   Navbar,
@@ -197,7 +196,5 @@ export function NavbarDefault() {
   );
 }
 
-
-NavbarDefault.getLayout = (page) => <Layout>{page}</Layout>;
 
 export default NavbarDefault;
